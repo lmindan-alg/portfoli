@@ -1,0 +1,60 @@
+body {
+  background-color: pink;
+}
+div {
+  float: left;
+}
+.cuadrado {
+  height: 100px;
+  width: 100px;
+  background-color: navy;
+  margin: 20px;
+}
+
+#elipse {
+  height: 100px;
+  width: 200px;
+  background-color: lightgreen;
+  border-radius: 100px/50px;
+}
+
+#c1 {
+  background-color: red;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+#c2 {
+  background-color: green;
+}
+
+#c3 {
+  background-color: yellow;
+  position: relative;
+  right: 100px;
+}
+
+#c4 {
+  background-color: silver;
+  position: relative;
+  left: -200px;
+}
+
+#c5 {
+  background-color: navy;
+  position: relative;
+  left: -300px;
+}
+
+
+
+#triangulo {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
